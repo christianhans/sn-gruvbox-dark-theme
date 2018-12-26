@@ -4,8 +4,7 @@
   --foreground-1: #f9f5d7;
   --foreground-2: #838383;
   --foreground-3: #a8a8a8;
-  --highlight-color: #D79921;
-  --highlight-contrast-color: var(--foreground-1);
+  --highlight-color: #d79921;
   --neutral-color: #928374;
   --danger-color: #cc241d;
   --success-color: #98971a;
@@ -14,7 +13,7 @@
   /* Footer */
   --footer-bar-border-top-color: 0;
   --sn-stylekit-info-color: var(--highlight-color);
-  --sn-stylekit-info-contrast-color: var(--highlight-contrast-color);
+  --sn-stylekit-info-contrast-color: var(--foreground-1);
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-2);
   --sn-stylekit-success-color: var(--success-color);
@@ -66,16 +65,16 @@
   background-color: var(--background-2) !important;
   color: var(--foreground-2) !important;
 }
-:root #notes-column .note.selected,
-:root #tags-column .tag.selected {
-  background-color: var(--background-1) !important;
-}
 :root #notes-column .note .name,
 :root #notes-column .note .plain-preview {
   color: var(--foreground-3) !important;
 }
 :root #notes-column .note progress {
   border: 1px solid var(--border-color) !important;
+}
+:root .note.selected,
+:root .tag.selected {
+  background-color: var(--background-1) !important;
 }
 :root #notes-column .note .date.faded,
 :root #notes-column .note .tags-string > .faded,
