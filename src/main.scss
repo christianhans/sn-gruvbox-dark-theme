@@ -97,13 +97,14 @@
 
   #notes-column .note.selected,
   #tags-column .tag.selected,
-  #tag-tree .tag .selected {
+  .tag-tree .self.selected:before {
+    background: none !important;
     background-color: var(--background-1) !important;
   }
 
   /* Sidebar note properties: Dates, tags, etc. */
   #notes-column .note .date.faded,
-  #notes-column .note .tags-string > .faded,
+  #notes-column .note .tags-string>.faded,
   #notes-column .note .note-flag,
   .editor-tags input {
     opacity: 1 !important;

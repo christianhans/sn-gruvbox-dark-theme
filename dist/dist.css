@@ -74,7 +74,8 @@
 }
 :root #notes-column .note.selected,
 :root #tags-column .tag.selected,
-:root #tag-tree .tag .selected {
+:root .tag-tree .self.selected:before {
+  background: none !important;
   background-color: var(--background-1) !important;
 }
 :root #notes-column .note .date.faded,
