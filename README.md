@@ -4,7 +4,6 @@ Gruvbox Dark Theme for [Standard Notes](https://standardnotes.org/). Based on co
 
 ![Gruvbox Dark Theme for Standard Notes](preview.png)
 
-
 ## Installation
 
 Open "Extensions" in Standard Notes and click "Import Extension". Enter the following URL as Extension Link and press Enter:
