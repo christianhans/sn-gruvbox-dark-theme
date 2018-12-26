@@ -9,11 +9,11 @@ metatype: json
   "area": "themes",
   "description": "Gruvbox Dark Theme for Standard Notes",
   "version": "v0.0.5",
-  "url": "https://github.com/christianhans/sn-gruvbox-dark-theme/dist/dist.css",
+  "url": "https://raw.githubusercontent.com/christianhans/sn-gruvbox-dark-theme/master/dist/dist.css",
   "download_url": "https://github.com/christianhans/sn-gruvbox-dark-theme/archive/0.0.5.zip",
   "marketing_url": "https://github.com/christianhans/sn-gruvbox-dark-theme",
   "latest_url": "https://listed.standardnotes.org/CkWVdPhzvs",
-  "thumbnail_url": "",
+  "thumbnail_url": "https://raw.githubusercontent.com/christianhans/sn-gruvbox-dark-theme/master/preview.png",
   "dock_icon": {
     "type": "circle",
     "background_color": "#D79921",
