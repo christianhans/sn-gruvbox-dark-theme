@@ -48,7 +48,7 @@
   --sn-stylekit-secondary-foreground-color: var(--foreground-2);
   --sn-stylekit-secondary-border-color: var(--border-color);
 
-  --sn-stylekit-secondary-contrast-background-color: var(--background-2);
+  --sn-stylekit-secondary-contrast-background-color: var(--background-1);
   --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
   --sn-stylekit-secondary-contrast-border-color: var(--border-color);
 
@@ -95,10 +95,10 @@
     border: 1px solid var(--border-color) !important;
   }
 
-  .note.selected,
+  /*.note.selected,
   .tag.selected {
     background-color: var(--background-1) !important;
-  }
+  }*/
 
   /* Sidebar note properties: Dates, tags, etc. */
   #notes-column .note .date.faded,
