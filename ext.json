@@ -1,0 +1,23 @@
+---
+metatype: json
+---
+
+{
+  "identifier": "io.github.christianhans.sn-gruvbox-dark-theme",
+  "name": "Gruvbox Dark Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "description": "Gruvbox Dark Theme for Standard Notes",
+  "version": "v0.0.5",
+  "url": "https://github.com/christianhans/sn-gruvbox-dark-theme/dist/dist.css",
+  "download_url": "https://github.com/christianhans/sn-gruvbox-dark-theme/archive/0.0.5.zip",
+  "marketing_url": "https://github.com/christianhans/sn-gruvbox-dark-theme",
+  "latest_url": "https://listed.standardnotes.org/CkWVdPhzvs",
+  "thumbnail_url": "",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#D79921",
+    "foreground_color": "#076678",
+    "border_color": "#D79921"
+  }
+}
