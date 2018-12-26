@@ -95,10 +95,11 @@
     border: 1px solid var(--border-color) !important;
   }
 
-  /*.note.selected,
-  .tag.selected {
+  #notes-column .note.selected,
+  #tags-column .tag.selected,
+  #tag-tree .tag .selected {
     background-color: var(--background-1) !important;
-  }*/
+  }
 
   /* Sidebar note properties: Dates, tags, etc. */
   #notes-column .note .date.faded,

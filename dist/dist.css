@@ -46,10 +46,6 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-  /*.note.selected,
-  .tag.selected {
-    background-color: var(--background-1) !important;
-  }*/
   /* Sidebar note properties: Dates, tags, etc. */
   /* TODO: Rule not applied */
 }
@@ -75,6 +71,11 @@
 }
 :root #notes-column .note progress {
   border: 1px solid var(--border-color) !important;
+}
+:root #notes-column .note.selected,
+:root #tags-column .tag.selected,
+:root #tag-tree .tag .selected {
+  background-color: var(--background-1) !important;
 }
 :root #notes-column .note .date.faded,
 :root #notes-column .note .tags-string > .faded,
