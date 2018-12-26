@@ -1,6 +1,6 @@
 # sn-gruvbox-dark-theme
 
-Gruvbox Dark Theme for [Standard Notes](https://standardnotes.org/).
+Gruvbox Dark Theme for [Standard Notes](https://standardnotes.org/). Based on colors from the [gruvbox Vim theme](https://github.com/morhetz/gruvbox).
 
 ![Gruvbox Dark Theme for Standard Notes](preview.png)
 
