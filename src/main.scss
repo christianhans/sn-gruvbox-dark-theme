@@ -111,6 +111,12 @@
     color: var(--neutral-color) !important;
   }
 
+  /* Workaround for subitems in Markdown lists not colored using StyleKit */
+  .cm-s-default .cm-variable-3,
+  .cm-s-default .cm-type {
+    color: var(--success-color) !important;
+  }
+
   /* TODO: Rule not applied */
   // #notes-column .note.selected progress,
   // .notes .note.selected progress {

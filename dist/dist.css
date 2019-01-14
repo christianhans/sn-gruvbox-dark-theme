@@ -47,6 +47,7 @@
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
   /* Sidebar note properties: Dates, tags, etc. */
+  /* Workaround for subitems in Markdown lists not colored using StyleKit */
   /* TODO: Rule not applied */
 }
 :root .sk-app-bar,
@@ -84,6 +85,10 @@
 :root .editor-tags input {
   opacity: 1 !important;
   color: var(--neutral-color) !important;
+}
+:root .cm-s-default .cm-variable-3,
+:root .cm-s-default .cm-type {
+  color: var(--success-color) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */

@@ -1,6 +1,6 @@
 {
   "name": "sn-gruvbox-dark-theme",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/dist.css",
   "devDependencies": {
     "debug": ">=2.6.9",
