@@ -1,6 +1,6 @@
----
+-- -
 metatype: json
----
+  -- -
 
   {
     "identifier": "io.github.christianhans.sn-gruvbox-dark-theme",
@@ -10,7 +10,7 @@ metatype: json
     "description": "Gruvbox Dark Theme for Standard Notes",
     "version": "v0.0.10",
     "url": "https://gitcdn.link/repo/christianhans/sn-gruvbox-dark-theme/master/dist/dist.css",
-    "download_url": "https://github.com/christianhans/sn-gruvbox-dark-theme/archive/0.0.9.zip",
+    "download_url": "https://github.com/christianhans/sn-gruvbox-dark-theme/archive/0.0.10.zip",
     "marketing_url": "https://github.com/christianhans/sn-gruvbox-dark-theme",
     "latest_url": "https://listed.standardnotes.org/CkWVdPhzvs",
     "thumbnail_url": "https://raw.githubusercontent.com/christianhans/sn-gruvbox-dark-theme/master/preview.png",
