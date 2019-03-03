@@ -4,7 +4,7 @@
 
   --foreground-1: #f9f5d7;
   --foreground-2: #838383;
-  --foreground-3: #a8a8a8;
+  /* --foreground-3: #a8a8a8; */
 
   --highlight-color: #d79921;
   --neutral-color: #928374; //#938473
@@ -87,7 +87,8 @@
   }
 
   #notes-column .note .name {
-    color: var(--foreground-3) !important;
+    color: var(--foreground-2) !important;
+    /* var(--foreground-3) */
   }
 
   #notes-column .note .plain-preview {
