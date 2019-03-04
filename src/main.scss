@@ -101,14 +101,14 @@
 
   #notes-column .note .note-flags .flag,
   .notes .note .note-flags .flag {
-    background-color: var(--foreground-2) !important;
-    color: var(--background-1) !important;
+    background-color: var(--background-1) !important;
+    color: var(--foreground-2) !important;
   }
 
   #notes-column .note.selected .note-flags .flag,
   .notes .note.selected .note-flags .flag {
-    background-color: var(--foreground-2) !important;
-    color: var(--background-2) !important;
+    background-color: var(--background-2) !important;
+    color: var(--foreground-2) !important;
   }
 
   #notes-column .note.selected,
