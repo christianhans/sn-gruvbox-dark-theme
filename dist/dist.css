@@ -80,32 +80,13 @@
 }
 :root #notes-column .note .note-flags .flag,
 :root .notes .note .note-flags .flag {
-  color: var(--background-2) !important;
+  background-color: var(--background-1) !important;
+  color: var(--foreground-2) !important;
 }
 :root #notes-column .note.selected .note-flags .flag.info,
 :root .notes .note.selected .note-flags .flag.info {
-  background-color: var(--sn-stylekit-info-color);
-  color: var(--background-1) !important;
-}
-:root #notes-column .note.selected .note-flags .flag.success,
-:root .notes .note.selected .note-flags .flag.success {
-  background-color: var(--sn-stylekit-success-color);
-  color: var(--background-1) !important;
-}
-:root #notes-column .note.selected .note-flags .flag.warning,
-:root .notes .note.selected .note-flags .flag.warning {
-  background-color: var(--sn-stylekit-warning-color);
-  color: var(--background-1) !important;
-}
-:root #notes-column .note.selected .note-flags .flag.neutral,
-:root .notes .note.selected .note-flags .flag.neutral {
-  background-color: var(--sn-stylekit-neutral-color);
-  color: var(--background-1) !important;
-}
-:root #notes-column .note.selected .note-flags .flag.danger,
-:root .notes .note.selected .note-flags .flag.danger {
-  background-color: var(--sn-stylekit-danger-color);
-  color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
 }
 :root #notes-column .note.selected,
 :root #tags-column .tag.selected,
