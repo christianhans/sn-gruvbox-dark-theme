@@ -114,6 +114,30 @@
     color: var(--foreground-2) !important;
   }
 
+  #notes-column .note.selected .note-flags .flag.success,
+  .notes .note.selected .note-flags .flag.success {
+    background-color: var(--background-2) !important;
+    color: var(--foreground-2) !important;
+  }
+
+  #notes-column .note.selected .note-flags .flag.warning,
+  .notes .note.selected .note-flags .flag.warning {
+    background-color: var(--background-2) !important;
+    color: var(--foreground-2) !important;
+  }
+
+  #notes-column .note.selected .note-flags .flag.neutral,
+  .notes .note.selected .note-flags .flag.neutral {
+    background-color: var(--background-2) !important;
+    color: var(--foreground-2) !important;
+  }
+
+  #notes-column .note.selected .note-flags .flag.danger,
+  .notes .note.selected .note-flags .flag.danger {
+    background-color: var(--background-2) !important;
+    color: var(--foreground-2) !important;
+  }
+
   #notes-column .note.selected,
   #tags-column .tag.selected,
   .tag-tree .self.selected:before {
