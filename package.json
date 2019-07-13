@@ -8,7 +8,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-newer": "^1.2.0",
-    "lodash": ">=4.17.5"
+    "lodash": ">=4.17.13"
   },
   "sn": {
     "main": "dist/dist.css"
