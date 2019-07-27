@@ -10,6 +10,6 @@ Open "Extensions" in Standard Notes and click "Import Extension". Enter the foll
 https://listed.to/CkWVdPhzvs
 ```
 
-## Screenshot
+## Preview
 
 ![Gruvbox Dark Theme for Standard Notes](preview.png)
