@@ -47,9 +47,10 @@
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
   /* Note flags */
+  /* Note selected */
   /* Sidebar note properties: Dates, tags, etc. */
   /* Workaround for subitems in Markdown lists not colored using StyleKit */
-  /* TODO: Rule not applied */
+  /* Progress bars */
 }
 :root .sk-app-bar {
   color: var(--foreground-2) !important;
@@ -78,34 +79,50 @@
 :root #notes-column .note progress {
   border: 1px solid var(--border-color) !important;
 }
-:root #notes-column .note .note-flags .flag,
-:root .notes .note .note-flags .flag {
-  color: var(--background-2) !important;
+:root #notes-column .note .note-flags .flag.info,
+:root .notes .note .note-flags .flag.info {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-info-color) !important;
+}
+:root #notes-column .note .note-flags .flag.success,
+:root .notes .note .note-flags .flag.success {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-success-color);
+}
+:root #notes-column .note .note-flags .flag.warning,
+:root .notes .note .note-flags .flag.warning {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-warning-color);
+}
+:root #notes-column .note .note-flags .flag.neutral,
+:root .notes .note .note-flags .flag.neutral {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-neutral-color);
+}
+:root #notes-column .note .note-flags .flag.danger,
+:root .notes .note .note-flags .flag.danger {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-danger-color);
 }
 :root #notes-column .note.selected .note-flags .flag.info,
 :root .notes .note.selected .note-flags .flag.info {
-  background-color: var(--sn-stylekit-info-color);
-  color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
 }
 :root #notes-column .note.selected .note-flags .flag.success,
 :root .notes .note.selected .note-flags .flag.success {
-  background-color: var(--sn-stylekit-success-color);
-  color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
 }
 :root #notes-column .note.selected .note-flags .flag.warning,
 :root .notes .note.selected .note-flags .flag.warning {
-  background-color: var(--sn-stylekit-warning-color);
-  color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
 }
 :root #notes-column .note.selected .note-flags .flag.neutral,
 :root .notes .note.selected .note-flags .flag.neutral {
-  background-color: var(--sn-stylekit-neutral-color);
-  color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
 }
 :root #notes-column .note.selected .note-flags .flag.danger,
 :root .notes .note.selected .note-flags .flag.danger {
-  background-color: var(--sn-stylekit-danger-color);
-  color: var(--background-1) !important;
+  background-color: var(--background-2) !important;
 }
 :root #notes-column .note.selected,
 :root #tags-column .tag.selected,
@@ -123,6 +140,26 @@
 :root .cm-s-default .cm-variable-3,
 :root .cm-s-default .cm-type {
   color: var(--success-color) !important;
+}
+:root #notes-column .note progress, :root .notes .note progress {
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
+}
+:root #notes-column .note progress::-webkit-progress-bar, :root .notes .note progress::-webkit-progress-bar {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note progress::-webkit-progress-value, :root .notes .note progress::-webkit-progress-value {
+  background-color: var(--foreground-2) !important;
+}
+:root #notes-column .note.selected progress, :root .notes .note.selected progress {
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
+}
+:root #notes-column .note.selected progress::-webkit-progress-bar, :root .notes .note.selected progress::-webkit-progress-bar {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected progress::-webkit-progress-value, :root .notes .note.selected progress::-webkit-progress-value {
+  background-color: var(--foreground-2) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */

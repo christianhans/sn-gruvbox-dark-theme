@@ -8,15 +8,15 @@ metatype: json
     "content_type": "SN|Theme",
     "area": "themes",
     "description": "Gruvbox Dark Theme for Standard Notes",
-    "version": "v0.0.13",
+    "version": "v0.0.14",
     "url": "https://cdn.jsdelivr.net/gh/christianhans/sn-gruvbox-dark-theme@master/dist/dist.css",
-    "download_url": "https://github.com/christianhans/sn-gruvbox-dark-theme/archive/0.0.13.zip",
+    "download_url": "https://github.com/christianhans/sn-gruvbox-dark-theme/archive/0.0.14.zip",
     "marketing_url": "https://github.com/christianhans/sn-gruvbox-dark-theme",
     "latest_url": "https://listed.standardnotes.org/CkWVdPhzvs",
     "thumbnail_url": "https://raw.githubusercontent.com/christianhans/sn-gruvbox-dark-theme/master/preview.png",
     "dock_icon": {
       "type": "circle",
-      "background_color": "#D79921",
+      "background_color": "#1D2021",
       "foreground_color": "#076678",
       "border_color": "#D79921"
     },
