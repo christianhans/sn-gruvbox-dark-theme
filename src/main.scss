@@ -199,4 +199,9 @@
     background: var(--success-color) !important;
     color: var(--foreground-1) !important;
   }
+
+  /* Use lighter blue for Minimal Markdown Editor sublists and other CodeMirror elements */
+  .cm-s-default .cm-variable-3 {
+    color: #7e9a8f !important;
+  }
 }
