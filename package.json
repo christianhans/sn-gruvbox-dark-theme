@@ -4,7 +4,7 @@
   "main": "dist/dist.css",
   "devDependencies": {
     "debug": ">=2.6.9",
-    "grunt": "^1.3.0",
+    "grunt": "^1.5.2",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-newer": "^1.2.0",
