@@ -1,6 +1,7 @@
 :root {
   --background-1: #1d2021;
   --background-2: #161919;
+  --background-3: #32302f;
   --foreground-1: #f9f5d7;
   --foreground-2: #838383;
   --foreground-3: #a8a8a8;
@@ -23,6 +24,7 @@
   --sn-stylekit-danger-color: var(--danger-color);
   --sn-stylekit-danger-contrast-color: var(--background-2);
   --sn-stylekit-shadow-color: var(--background-2);
+  --sn-stylekit-passive-color-5: var(--background-3);
   --sn-stylekit-background-color: var(--background-1);
   --sn-stylekit-foreground-color: var(--foreground-1);
   --sn-stylekit-border-color: var(--border-color);
@@ -46,6 +48,7 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  --navigation-item-selected-background-color: var(--background-1);
   /* Note flags */
   /* Note selected */
   /* Sidebar note properties: Dates, tags, etc. */

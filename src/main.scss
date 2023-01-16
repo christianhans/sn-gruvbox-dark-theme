@@ -1,6 +1,7 @@
 :root {
   --background-1: #1d2021;
   --background-2: #161919;
+  --background-3: #32302f;
 
   --foreground-1: #f9f5d7;
   --foreground-2: #838383;
@@ -33,6 +34,8 @@
   --sn-stylekit-danger-contrast-color: var(--background-2); // TODO
 
   --sn-stylekit-shadow-color: var(--background-2);
+
+  --sn-stylekit-passive-color-5: var(--background-3);
 
   --sn-stylekit-background-color: var(--background-1);
   --sn-stylekit-foreground-color: var(--foreground-1);
